@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Navbar styling */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #fff;
+            border-bottom: 2px solid #f08db7;
+        }
+
+        nav .logo {
+            font-size: 28px;
+            color: #d3135a;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+        }
+
+        nav ul li a:hover {
+            color: #d3135a;
+        }
+
+        /* About section styling */
+        .about-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #ffebf2;
+            
+        }
+
+        .about-section h1 {
+            font-size: 32px;
+            color: #d3135a;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            color: #666;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .about-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .about-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .about-box img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .about-box img:hover {
+            transform: scale(1.1);
+        }
+
+
+        .about-box h3 {
+            color: #d3135a;
+            margin-top: 15px;
+        }
+
+        .about-box p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">pramodnani</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-section">
+        <h1>About Our Event Management Company</h1>
+        <p>We are a professional event management company dedicated to turning your dreams into reality. Whether it's weddings, corporate events, or special celebrations, we offer comprehensive event planning services.</p>
+        
+        <div class="about-container">
+            <div class="about-box">
+                <img src="team.webp" alt="Our Team">
+                <h3>Our Team</h3>
+                <p>Our experienced professionals work tirelessly to ensure your events are flawless and memorable.</p>
+            </div>
+            <div class="about-box">
+                <img src="vision.webp" alt="Our Vision">
+                <h3>Our Vision</h3>
+                <p>We strive to be the most innovative and creative event planning company, exceeding client expectations every time.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
